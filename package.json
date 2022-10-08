@@ -1,10 +1,13 @@
 {
   "name": "node-collection",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Collection of useful code implemented using node and node packages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "csv-parse": "node csv_parse/index.js"
+
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/cynepton/node/issues"
   },
-  "homepage": "https://github.com/cynepton/node#readme"
+  "homepage": "https://github.com/cynepton/node#readme",
+  "dependencies": {
+    "csv-parse": "^5.3.0"
+  }
 }
