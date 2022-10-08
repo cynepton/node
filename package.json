@@ -4,7 +4,10 @@
   "description": "Collection of useful code implemented using node and node packages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "csv-parse": "node csv_parse/index.js"
+
   },
   "repository": {
     "type": "git",
