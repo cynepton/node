@@ -1,0 +1,19 @@
+{
+  "name": "node-collection",
+  "version": "0.0.1",
+  "description": "Collection of useful code implemented using node and node packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cynepton/node.git"
+  },
+  "author": "Isaac Aderonmu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cynepton/node/issues"
+  },
+  "homepage": "https://github.com/cynepton/node#readme"
+}
