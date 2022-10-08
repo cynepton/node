@@ -1,6 +1,6 @@
 {
   "name": "node-collection",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Collection of useful code implemented using node and node packages",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/cynepton/node/issues"
   },
-  "homepage": "https://github.com/cynepton/node#readme"
+  "homepage": "https://github.com/cynepton/node#readme",
+  "dependencies": {
+    "csv-parse": "^5.3.0"
+  }
 }
